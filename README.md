@@ -22,6 +22,10 @@ DualScroll is a Flutter widget package that enables easy implementation of two-d
 - Custom ScrollPhysics for both vertical and horizontal scrolling
 - Customizable padding support
 
+## Demo
+[dual-scroll-demo.webm](https://github.com/user-attachments/assets/82481e12-8e4b-4959-b9c4-660951b51995)
+
+
 ## Getting Started
 
 1. Add dependency to pubspec.yaml:
