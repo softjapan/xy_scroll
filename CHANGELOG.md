@@ -1,3 +1,9 @@
-## 0.0.1
+## 1.0.0
 
-* TODO: Describe initial release.
+* Initial release
+* Implemented two-dimensional scrollable grid layout widget
+* Features included:
+  - Support for both vertical and horizontal scrolling
+  - Customizable vertical spacing between items
+  - Custom ScrollPhysics for both vertical and horizontal scrolling
+  - Customizable padding support
