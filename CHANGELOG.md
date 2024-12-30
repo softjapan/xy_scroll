@@ -12,3 +12,7 @@
 
 * Fixed issue with horizontal scrolling not working correctly
 
+## 1.0.2
+
+* Fixed issue with horizontal scrolling not working correctly
+
