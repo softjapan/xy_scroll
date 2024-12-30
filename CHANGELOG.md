@@ -16,3 +16,7 @@
 
 * Fixed issue with horizontal scrolling not working correctly
 
+## 1.0.3
+
+* Add example app
+

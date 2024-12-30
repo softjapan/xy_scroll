@@ -1,0 +1,18 @@
+name: xy_scroll_example
+description: An example app demonstrating the usage of the xy_scroll package.
+
+environment:
+  sdk: '^3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  xy_scroll:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# ... 
