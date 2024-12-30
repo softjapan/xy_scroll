@@ -23,7 +23,8 @@ XyScroll is a Flutter widget package that enables easy implementation of two-dim
 - Customizable padding support
 
 ## Demo
-[dual-scroll-demo.webm](https://github.com/user-attachments/assets/82481e12-8e4b-4959-b9c4-660951b51995)
+[xy-scroll.webm](https://github.com/user-attachments/assets/9b4aca27-e191-4cb9-8367-cf5978749fc7)
+
 
 
 ## Getting Started
