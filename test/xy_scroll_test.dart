@@ -3,10 +3,10 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:dual_scroll/dual_scroll.dart';
+import 'package:xy_scroll/xy_scroll.dart';
 
 void main() {
-  testWidgets('DualScroll widget test', (WidgetTester tester) async {
+  testWidgets('XyScroll widget test', (WidgetTester tester) async {
     final items = List.generate(
       60,
       (row) => List.generate(
@@ -38,12 +38,12 @@ void main() {
 
     await tester.pumpWidget(
       MaterialApp(
-        home: DualScroll(items: items),
+        home: XyScroll(items: items),
       ),
     );
 
     // ウィジェットが正しくレンダリングされることを確認
-    expect(find.byType(DualScroll), findsOneWidget);
+    expect(find.byType(XyScroll), findsOneWidget);
     expect(find.text('Hello'), findsWidgets);
     expect(find.text('World'), findsWidgets);
 

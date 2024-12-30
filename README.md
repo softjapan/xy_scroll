@@ -11,9 +11,9 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-# dual_scroll
+# xy_scroll
 
-DualScroll is a Flutter widget package that enables easy implementation of two-dimensional scrollable grids. It allows you to create content that can be scrolled both vertically and horizontally.
+XyScroll is a Flutter widget package that enables easy implementation of two-dimensional scrollable grids. It allows you to create content that can be scrolled both vertically and horizontally.
 
 ## Features
 
@@ -32,7 +32,7 @@ DualScroll is a Flutter widget package that enables easy implementation of two-d
 
 ```yaml
 dependencies:
-  dual_scroll: ^1.0.0
+  xy_scroll: ^1.0.0
 ```
 
 2. Install the package:
@@ -44,7 +44,7 @@ flutter pub get
 3. Import the package:
 
 ```dart
-import 'package:dual_scroll/dual_scroll.dart';
+import 'package:xy_scroll/xy_scroll.dart';
 ```
 
 ## Usage
@@ -52,7 +52,7 @@ import 'package:dual_scroll/dual_scroll.dart';
 Basic example:
 
 ```dart
-DualScroll(
+XyScroll(
   items: [
     [
       Container(width: 100, height: 100, color: Colors.red),
@@ -73,7 +73,7 @@ DualScroll(
 Applying custom scroll physics:
 
 ```dart
-DualScroll(
+XyScroll(
   items: itemsList,
   verticalPhysics: BouncingScrollPhysics(),
   horizontalPhysics: ClampingScrollPhysics(),

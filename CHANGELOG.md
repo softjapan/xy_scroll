@@ -7,3 +7,8 @@
   - Customizable vertical spacing between items
   - Custom ScrollPhysics for both vertical and horizontal scrolling
   - Customizable padding support
+
+## 1.0.1
+
+* Fixed issue with horizontal scrolling not working correctly
+

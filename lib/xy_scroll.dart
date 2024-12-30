@@ -1,4 +1,4 @@
-library dual_scroll;
+library xy_scroll;
 
 import 'package:flutter/material.dart';
 
@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 ///
 /// This widget allows both vertical and horizontal scrolling of content organized
 /// in a 2D grid format.
-class DualScroll extends StatefulWidget {
+class XyScroll extends StatefulWidget {
   /// The 2D list of widgets to display in the grid.
   final List<List<Widget>> items;
 
@@ -22,7 +22,7 @@ class DualScroll extends StatefulWidget {
   /// Padding around the entire scroll view.
   final EdgeInsetsGeometry? padding;
 
-  const DualScroll({
+  const XyScroll({
     super.key,
     required this.items,
     this.verticalSpacing = 20.0,
@@ -32,10 +32,10 @@ class DualScroll extends StatefulWidget {
   });
 
   @override
-  State<DualScroll> createState() => _State();
+  State<XyScroll> createState() => _State();
 }
 
-class _State extends State<DualScroll> {
+class _State extends State<XyScroll> {
   // 2次元スクロールビューを生成する関数
   Widget buildTwoDimensionalScroll() {
     return ListView.separated(
